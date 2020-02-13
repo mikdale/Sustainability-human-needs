@@ -1,0 +1,2536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+
+  <title>Distribution</title>
+  <meta name="description" content="        Distribution    Physiological needs XXXX         ">
+
+  <link rel="canonical" href="/YOUR%20URL//2_Physiological/3_Food/3_Distribution/distribution.html">
+  <link rel="alternate" type="application/rss+xml" title="Sustainability and Human Needs" href="/YOUR%20URL//feed.xml">
+
+  <meta property="og:url"         content="/YOUR%20URL//2_Physiological/3_Food/3_Distribution/distribution.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Distribution" />
+<meta property="og:description" content="        Distribution    Physiological needs XXXX         " />
+<meta property="og:image"       content="YOUR%20URL/images/logo/logo.png" />
+
+<meta name="twitter:card" content="summary">
+
+
+  <script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": "YOUR URL//2_Physiological/3_Food/3_Distribution/distribution.html",
+  "headline": "Distribution",
+  "datePublished": "2020-01-21T14:27:59-05:00",
+  "dateModified": "2020-01-21T14:27:59-05:00",
+  "description": "        Distribution    Physiological needs XXXX         ",
+  "author": {
+    "@type": "Person",
+    "name": "Michael Carbajales-Dale"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Data 100 at UC Berkeley",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "YOUR URL/",
+      "width": 60,
+      "height": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "YOUR URL/",
+    "height": 60,
+    "width": 60
+  }
+}
+
+  </script>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#efae0a"> -->
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#233947">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/images/logo/favicon.ico">
+
+  <!-- MathJax Config -->
+  <!-- Allow inline math using $ and automatically break long math lines -->
+<!-- (mostly) copied from nbconvert configuration -->
+<!-- https://github.com/jupyter/nbconvert/blob/master/nbconvert/templates/html/mathjax.tpl -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+        processEnvironments: true
+    },
+    // Center justify equations in code and markdown cells. Elsewhere
+    // we use CSS to left justify single line equations in code cells.
+    displayAlign: 'center',
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}},
+        linebreaks: { automatic: true },
+    },
+    
+});
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML' async></script>
+
+
+  <!-- DOM updating function -->
+  <script src="/assets/js/page/dom-update.js"></script>
+
+  <!-- Selectors for elements on the page -->
+  <script src="/assets/js/page/documentSelectors.js"></script>
+
+  <!-- Define some javascript variables that will be useful in other javascript -->
+  <script>
+    const site_basename = '/';
+  </script>
+
+  <!-- Add AnchorJS to let headers be linked -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js" async></script>
+  <script src="/assets/js/page/anchors.js" async></script>
+
+  <!-- Include Turbolinks to make page loads fast -->
+  <!-- https://github.com/turbolinks/turbolinks -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js" async></script>
+  <meta name="turbolinks-cache-control" content="no-cache">
+
+  <!-- Load nbinteract for widgets -->
+  
+
+  <!-- Load Thebelab for interactive widgets -->
+  <!-- Include Thebelab for interactive code if it's enabled -->
+
+
+<!-- Display Thebelab button in each code cell -->
+<script>
+/**
+ * Set up thebelab button for code blocks
+ */
+
+const thebelabCellButton = id =>
+  `<a id="thebelab-cell-button-${id}" class="btn thebebtn o-tooltip--left" data-tooltip="Interactive Mode">
+    <img src="/assets/images/edit-button.svg" alt="Start thebelab interactive mode">
+  </a>`
+
+
+const addThebelabButtonToCodeCells =  () => {
+
+  const codeCells = document.querySelectorAll('div.input_area > div.highlight:not(.output) pre')
+  codeCells.forEach((codeCell, index) => {
+    const id = codeCellId(index)
+    codeCell.setAttribute('id', id)
+    if (document.getElementById("thebelab-cell-button-" + id) == null) {
+      codeCell.insertAdjacentHTML('afterend', thebelabCellButton(id));
+    }
+  })
+}
+
+initFunction(addThebelabButtonToCodeCells);
+</script>
+
+
+<script src="https://unpkg.com/thebelab@latest/lib/index.js" async></script>
+<script>
+    /**
+     * Add attributes to Thebelab blocks
+     */
+
+    const initThebelab = () => {
+        const addThebelabToCodeCells = () => {
+            console.log("Adding thebelab to code cells...");
+            // If Thebelab hasn't loaded, wait a bit and try again. This
+            // happens because we load ClipboardJS asynchronously.
+            if (window.thebelab === undefined) {
+                setTimeout(addThebelabToCodeCells, 250)
+            return
+            }
+
+            // If we already detect a Thebelab cell, don't re-run
+            if (document.querySelectorAll('div.thebelab-cell').length > 0) {
+                return;
+            }
+
+            // Find all code cells, replace with Thebelab interactive code cells
+            const codeCells = document.querySelectorAll('.input_area pre')
+            codeCells.forEach((codeCell, index) => {
+                const id = codeCellId(index)
+
+                // Clean up the language to make it work w/ CodeMirror and add it to the cell
+                dataLanguage = ""
+                dataLanguage = detectLanguage(dataLanguage);
+                codeCell.setAttribute('data-language', dataLanguage)
+                codeCell.setAttribute('data-executable', 'true')
+
+                // If the code cell is hidden, show it
+                var inputCheckbox = document.querySelector(`input#hidebtn${codeCell.id}`);
+                if (inputCheckbox !== null) {
+                    setCodeCellVisibility(inputCheckbox, 'visible');
+                }
+            });
+
+            // Remove the event listener from the page so keyboard press doesn't
+            // Change page
+            document.removeEventListener('keydown', initPageNav)
+            keyboardListener = false;
+
+            // Init thebelab
+            thebelab.bootstrap();
+
+            // Remove copy buttons since they won't work anymore
+            const copyAndThebeButtons = document.querySelectorAll('.copybtn, .thebebtn')
+            copyAndThebeButtons.forEach((button, index) => {
+                button.remove();
+            });
+
+            // Remove outputs since they'll be stale
+            const outputs = document.querySelectorAll('.output *, .output')
+            outputs.forEach((output, index) => {
+                output.remove();
+            });
+
+            // Find any cells with an initialization tag and ask ThebeLab to run them when ready
+            var thebeInitCells = document.querySelectorAll('div.tag_thebelab-init');
+            thebeInitCells.forEach((cell) => {
+                console.log("Initializing ThebeLab with cell: " + cell.id);
+                cell.querySelector('.thebelab-run-button').click();
+            });
+        }
+
+        // Add event listener for the function to modify code cells
+        const thebelabButtons = document.querySelectorAll('[id^=thebelab], [id$=thebelab]')
+        thebelabButtons.forEach((thebelabButton,index) => {
+            if (thebelabButton === null) {
+                setTimeout(initThebelab, 250)
+                return
+            };
+            thebelabButton.addEventListener('click', addThebelabToCodeCells);
+        });
+    }
+
+    // Initialize Thebelab
+    initFunction(initThebelab);
+
+// Helper function to munge the language name
+var detectLanguage = (language) => {
+    if (language.indexOf('python') > -1) {
+        language = "python";
+    }
+    return language;
+}
+</script>
+
+
+
+  <!-- Load the auto-generating TOC (non-async otherwise the TOC won't load w/ turbolinks) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.8.1/tocbot.min.js" async></script>
+  <script src="/assets/js/page/tocbot.js"></script>
+
+  <!-- Google analytics -->
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+  <!-- Clipboard copy button -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" async></script>
+
+  <!-- Load custom website scripts -->
+  <script src="/assets/js/scripts.js" async></script>
+
+  <!-- Load custom user CSS and JS  -->
+  <script src="/assets/custom/custom.js" async></script>
+  <link rel="stylesheet" href="/assets/custom/custom.css">
+
+  <!-- Update interact links w/ REST param, is defined in includes so we can use templates -->
+  
+
+  <!-- Lunr search code - will only be executed on the /search page -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js" async></script>
+  <script>var initQuery = function() {
+  // See if we have a search box
+  var searchInput = document.querySelector('input#lunr_search');
+  if (searchInput === null) {
+    return;
+  }
+
+  // Function to parse our lunr cache
+  var idx = lunr(function () {
+    this.field('title')
+    this.field('excerpt')
+    this.field('categories')
+    this.field('tags')
+    this.ref('id')
+
+    this.pipeline.remove(lunr.trimmer)
+
+    for (var item in store) {
+      this.add({
+        title: store[item].title,
+        excerpt: store[item].excerpt,
+        categories: store[item].categories,
+        tags: store[item].tags,
+        id: item
+      })
+    }
+  });
+
+  // Run search upon keyup
+  searchInput.addEventListener('keyup', function () {
+    var resultdiv = document.querySelector('#results');
+    var query = document.querySelector("input#lunr_search").value.toLowerCase();
+    var result =
+      idx.query(function (q) {
+        query.split(lunr.tokenizer.separator).forEach(function (term) {
+          q.term(term, { boost: 100 })
+          if(query.lastIndexOf(" ") != query.length-1){
+            q.term(term, {  usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+          }
+          if (term != ""){
+            q.term(term, {  usePipeline: false, editDistance: 1, boost: 1 })
+          }
+        })
+      });
+
+      // Empty the results div
+      while (resultdiv.firstChild) {
+        resultdiv.removeChild(resultdiv.firstChild);
+      }
+
+    resultdiv.insertAdjacentHTML('afterbegin', '<p class="results__found">'+result.length+' Result(s) found</p>');
+    for (var item in result) {
+      var ref = result[item].ref;
+      if(store[ref].teaser){
+        var searchitem =
+          '<div class="list__item">'+
+            '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
+              '<h2 class="archive__item-title" itemprop="headline">'+
+                '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
+              '</h2>'+
+              '<div class="archive__item-teaser">'+
+                '<img src="'+store[ref].teaser+'" alt="">'+
+              '</div>'+
+              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+            '</article>'+
+          '</div>';
+      }
+      else{
+    	  var searchitem =
+          '<div class="list__item">'+
+            '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
+              '<h2 class="archive__item-title" itemprop="headline">'+
+                '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
+              '</h2>'+
+              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+            '</article>'+
+          '</div>';
+      }
+      resultdiv.insertAdjacentHTML('beforeend', searchitem);
+    }
+  });
+};
+
+initFunction(initQuery);
+</script>
+
+  <!-- Load JS that depends on site variables -->
+  <script src="/assets/js/page/copy-button.js" async></script>
+
+  <!-- Hide cell code -->
+  <script src="/assets/js/page/hide-cell.js" async></script>
+
+  <!-- Printing the screen -->
+  <!-- Include nbinteract for interactive widgets -->
+<script src="https://printjs-4de6.kxcdn.com/print.min.js" async></script>
+<script>
+printContent = () => {
+    // MathJax displays a second version of any math for assistive devices etc.
+    // This prevents double-rendering in the PDF output.
+    var ignoreAssistList = [];
+    assistives = document.querySelectorAll('.MathJax_Display span.MJX_Assistive_MathML').forEach((element, index) => {
+        var thisId = 'MathJax-assistive-' + index.toString();
+        element.setAttribute('id', thisId);
+        ignoreAssistList.push(thisId)
+    });
+
+    // Print the actual content object
+    printJS({
+        printable: 'textbook_content',
+        type: 'html',
+        css: "/assets/css/styles.css",
+        style: "#textbook_content {padding-top: 40px};",
+        scanStyles: false,
+        targetStyles: ["*"],
+        ignoreElements: ignoreAssistList,
+        documentTitle: "Made with Jupyter Book"
+    })
+};
+
+initPrint = () => {
+    document.querySelector('#interact-button-print').addEventListener('click', printContent)
+}
+
+initFunction(initPrint)
+</script>
+
+</head>
+
+  <body>
+    <!-- Include the ThebeLab config so it gets reloaded on each page -->
+    <script type="text/x-thebe-config">{
+    requestKernel: true,
+    binderOptions: {
+    repo: "YOUR-ORG/YOUR-REPO",
+    ref: "gh-pages",
+    },
+    codeMirrorConfig: {
+    theme: "abcdef",
+    mode: "python"
+    },
+    kernelOptions: {
+    kernelName: "python3",
+    path: ""
+    }
+}
+</script>
+
+    <!-- .js-show-sidebar shows sidebar by default -->
+    <div id="js-textbook" class="c-textbook js-show-sidebar">
+      
+
+
+
+<nav id="js-sidebar" class="c-textbook__sidebar">
+  <a href="https://jupyterbook.org/"><img src="/images/logo/logo.png" class="textbook_logo" id="sidebar-logo" alt="textbook logo" data-turbolinks-permanent/></a>
+  <h2 class="c-sidebar__title">Sustainability and Human Needs</h2>
+  <ul class="c-sidebar__chapters">
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/preface">
+        <a class="c-sidebar__entry"
+          href="/preface.html"
+        >
+          
+          Preface
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="">
+        <a class="c-sidebar__entry"
+          href=".html"
+        >
+          
+            1.
+          
+          Preface
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/1_Introduction/introduction">
+        <a class="c-sidebar__entry"
+          href="/1_Introduction/introduction.html"
+        >
+          
+            2.
+          
+          Introduction
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/1_Introduction/1_Motivation/Motivation">
+              <a class="c-sidebar__entry"
+                href="/1_Introduction/1_Motivation/Motivation.html"
+              >
+                
+                  2.1
+                
+                Motivation
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/1_Introduction/2_Purpose/purpose">
+              <a class="c-sidebar__entry"
+                href="/1_Introduction/2_Purpose/purpose.html"
+              >
+                
+                  2.2
+                
+                Purpose
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/1_Introduction/3_Maslow/maslow">
+              <a class="c-sidebar__entry"
+                href="/1_Introduction/3_Maslow/maslow.html"
+              >
+                
+                  2.3
+                
+                Maslow
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/1_Introduction/4_Other/other">
+              <a class="c-sidebar__entry"
+                href="/1_Introduction/4_Other/other.html"
+              >
+                
+                  2.4
+                
+                Other
+              </a>
+            </li>
+            
+              
+              <ul class='c-sidebar__subsections u-hidden-visually'>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/1_Introduction/4_Other/Max_Neef/max-neef">
+                  <a class="c-sidebar__entry"
+                    href="/1_Introduction/4_Other/Max_Neef/max-neef.html"
+                  >
+                    
+                    Max-Neef
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/1_Introduction/4_Other/Bakshi/bakshi">
+                  <a class="c-sidebar__entry"
+                    href="/1_Introduction/4_Other/Bakshi/bakshi.html"
+                  >
+                    
+                    Bakshi
+                  </a>
+                </li>
+              
+              </ul>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+        <li class="c-sidebar__divider"></li>
+        
+      
+      
+        <li><h2 class="c-sidebar__title">Part 1 - Physiological Needs</li>
+        
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/2_Physiological/1_Breathing/breathing">
+        <a class="c-sidebar__entry"
+          href="/2_Physiological/1_Breathing/breathing.html"
+        >
+          
+            3.
+          
+          Breathing
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/1_Breathing/1_Oxygen/oxygen">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/1_Breathing/1_Oxygen/oxygen.html"
+              >
+                
+                  3.1
+                
+                Oxygen
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/1_Breathing/2_Carbon_dioxide/carbon">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/1_Breathing/2_Carbon_dioxide/carbon.html"
+              >
+                
+                  3.2
+                
+                Carbon Dioxide
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/1_Breathing/3_Indoor_air_quality/air_quality">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/1_Breathing/3_Indoor_air_quality/air_quality.html"
+              >
+                
+                  3.3
+                
+                Indoor Air Quality
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/1_Breathing/4_Criteria_air_pollutants/criteria">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/1_Breathing/4_Criteria_air_pollutants/criteria.html"
+              >
+                
+                  3.4
+                
+                Criteria Air Pollutants
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/2_Physiological/2_Drinking_water/drinking_water">
+        <a class="c-sidebar__entry"
+          href="/2_Physiological/2_Drinking_water/drinking_water.html"
+        >
+          
+            4.
+          
+          Drinking Water
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/2_Drinking_water/1_Water_on_Earth/water">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/2_Drinking_water/1_Water_on_Earth/water.html"
+              >
+                
+                  4.1
+                
+                Water on Earth
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/2_Drinking_water/2_Needs/needs">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/2_Drinking_water/2_Needs/needs.html"
+              >
+                
+                  4.2
+                
+                Water Needs
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/2_Drinking_water/3_Water_treatment/treatment">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/2_Drinking_water/3_Water_treatment/treatment.html"
+              >
+                
+                  4.3
+                
+                Water Treatment
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/2_Physiological/3_Food/food">
+        <a class="c-sidebar__entry"
+          href="/2_Physiological/3_Food/food.html"
+        >
+          
+            5.
+          
+          Food
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/3_Food/1_Agriculture/agriculture">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/3_Food/1_Agriculture/agriculture.html"
+              >
+                
+                  5.1
+                
+                Agriculture
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/3_Food/2_Processing/processing">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/3_Food/2_Processing/processing.html"
+              >
+                
+                  5.2
+                
+                Processing
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/3_Food/3_Distribution/distribution">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/3_Food/3_Distribution/distribution.html"
+              >
+                
+                  5.3
+                
+                Distribution
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/3_Food/4_Consumption/consumption">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/3_Food/4_Consumption/consumption.html"
+              >
+                
+                  5.4
+                
+                Consumption
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/3_Food/5_End-of-life/EoL">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/3_Food/5_End-of-life/EoL.html"
+              >
+                
+                  5.5
+                
+                End of Life
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/3_Food/6_Losses/losses">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/3_Food/6_Losses/losses.html"
+              >
+                
+                  5.6
+                
+                Losses
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/2_Physiological/4_Excretion/excretion">
+        <a class="c-sidebar__entry"
+          href="/2_Physiological/4_Excretion/excretion.html"
+        >
+          
+            6.
+          
+          Excretion
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/4_Excretion/1_Toilets/toilets">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/4_Excretion/1_Toilets/toilets.html"
+              >
+                
+                  6.1
+                
+                Toilets
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/4_Excretion/2_Wastewater_treatment/WW_treatment">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/4_Excretion/2_Wastewater_treatment/WW_treatment.html"
+              >
+                
+                  6.2
+                
+                Wastewater Treatment
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/4_Excretion/3_Hygiene/hygiene">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/4_Excretion/3_Hygiene/hygiene.html"
+              >
+                
+                  6.3
+                
+                Hygiene
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/2_Physiological/5_Homeostasis/homeostasis">
+        <a class="c-sidebar__entry"
+          href="/2_Physiological/5_Homeostasis/homeostasis.html"
+        >
+          
+            7.
+          
+          Homeostasis
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/5_Homeostasis/1_Shelter/shelter">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/5_Homeostasis/1_Shelter/shelter.html"
+              >
+                
+                  7.1
+                
+                Shelter
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/5_Homeostasis/2_Heating_and_cooling/heating">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/5_Homeostasis/2_Heating_and_cooling/heating.html"
+              >
+                
+                  7.2
+                
+                Heating
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/5_Homeostasis/2_Heating_and_cooling/cooling">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/5_Homeostasis/2_Heating_and_cooling/cooling.html"
+              >
+                
+                  7.3
+                
+                Cooling
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/5_Homeostasis/3_Clothing/clothing">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/5_Homeostasis/3_Clothing/clothing.html"
+              >
+                
+                  7.4
+                
+                Clothing
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/2_Physiological/6_Sleep/sleep">
+        <a class="c-sidebar__entry"
+          href="/2_Physiological/6_Sleep/sleep.html"
+        >
+          
+            8.
+          
+          Sleep
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/6_Sleep/1_Bed/bed">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/6_Sleep/1_Bed/bed.html"
+              >
+                
+                  8.1
+                
+                Bed
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/6_Sleep/2_Bedding/bedding">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/6_Sleep/2_Bedding/bedding.html"
+              >
+                
+                  8.2
+                
+                Bedding
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/6_Sleep/3_Sleep_Aids/sleep_aids">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/6_Sleep/3_Sleep_Aids/sleep_aids.html"
+              >
+                
+                  8.3
+                
+                Sleep Aids
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/2_Physiological/7_Reproduction/reproduction">
+        <a class="c-sidebar__entry"
+          href="/2_Physiological/7_Reproduction/reproduction.html"
+        >
+          
+            9.
+          
+          Reproduction
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/7_Reproduction/1_Pregnancy/fertility">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/7_Reproduction/1_Pregnancy/fertility.html"
+              >
+                
+                  9.1
+                
+                Fertility
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/7_Reproduction/1_Pregnancy/labor">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/7_Reproduction/1_Pregnancy/labor.html"
+              >
+                
+                  9.2
+                
+                Labor
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/2_Physiological/7_Reproduction/2_Child_rearing/rearing">
+              <a class="c-sidebar__entry"
+                href="/2_Physiological/7_Reproduction/2_Child_rearing/rearing.html"
+              >
+                
+                  9.3
+                
+                Child Rearing
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+        <li class="c-sidebar__divider"></li>
+        
+      
+      
+        <li><h2 class="c-sidebar__title">Part 2 - Safety Needs</li>
+        
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/3_Safety/1_Health/health">
+        <a class="c-sidebar__entry"
+          href="/3_Safety/1_Health/health.html"
+        >
+          
+            10.
+          
+          Health
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/3_Safety/1_Health/1_Hygiene/hygiene">
+              <a class="c-sidebar__entry"
+                href="/3_Safety/1_Health/1_Hygiene/hygiene.html"
+              >
+                
+                  10.1
+                
+                Hygiene
+              </a>
+            </li>
+            
+              
+              <ul class='c-sidebar__subsections u-hidden-visually'>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/3_Safety/1_Health/1_Hygiene/1_Ablutions/ablutions">
+                  <a class="c-sidebar__entry"
+                    href="/3_Safety/1_Health/1_Hygiene/1_Ablutions/ablutions.html"
+                  >
+                    
+                      10.1.1
+                      
+                    
+                    Ablutions
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/3_Safety/1_Health/1_Hygiene/2_Laundry/laundry">
+                  <a class="c-sidebar__entry"
+                    href="/3_Safety/1_Health/1_Hygiene/2_Laundry/laundry.html"
+                  >
+                    
+                      10.1.2
+                      
+                    
+                    Laundry
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/3_Safety/1_Health/1_Hygiene/3_Cleaning/cleaning">
+                  <a class="c-sidebar__entry"
+                    href="/3_Safety/1_Health/1_Hygiene/3_Cleaning/cleaning.html"
+                  >
+                    
+                      10.1.3
+                      
+                    
+                    Cleaning
+                  </a>
+                </li>
+              
+              </ul>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/3_Safety/1_Health/2_Medical/medical">
+              <a class="c-sidebar__entry"
+                href="/3_Safety/1_Health/2_Medical/medical.html"
+              >
+                
+                  10.2
+                
+                Medical
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/3_Safety/1_Health/3_Supplements/supplements">
+              <a class="c-sidebar__entry"
+                href="/3_Safety/1_Health/3_Supplements/supplements.html"
+              >
+                
+                  10.3
+                
+                Supplements
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/3_Safety/2_Employment/employment">
+        <a class="c-sidebar__entry"
+          href="/3_Safety/2_Employment/employment.html"
+        >
+          
+            11.
+          
+          Employment
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/3_Safety/2_Employment/1_Place_of_business/place">
+              <a class="c-sidebar__entry"
+                href="/3_Safety/2_Employment/1_Place_of_business/place.html"
+              >
+                
+                  11.1
+                
+                Places of Business
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/3_Safety/2_Employment/2_IT_services/it">
+              <a class="c-sidebar__entry"
+                href="/3_Safety/2_Employment/2_IT_services/it.html"
+              >
+                
+                  11.2
+                
+                Information Technology
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/3_Safety/2_Employment/3_Commuting/commuting">
+              <a class="c-sidebar__entry"
+                href="/3_Safety/2_Employment/3_Commuting/commuting.html"
+              >
+                
+                  11.3
+                
+                Commuting
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/3_Safety/2_Employment/4_Business_travel/travel_business">
+              <a class="c-sidebar__entry"
+                href="/3_Safety/2_Employment/4_Business_travel/travel_business.html"
+              >
+                
+                  11.4
+                
+                Business Travel
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/3_Safety/3_Property/property">
+        <a class="c-sidebar__entry"
+          href="/3_Safety/3_Property/property.html"
+        >
+          
+            12.
+          
+          Property
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/3_Safety/4_Security/security">
+        <a class="c-sidebar__entry"
+          href="/3_Safety/4_Security/security.html"
+        >
+          
+            13.
+          
+          Security
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+        <li class="c-sidebar__divider"></li>
+        
+      
+      
+        <li><h2 class="c-sidebar__title">Part 3 - Love & Belonging Needs</li>
+        
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/4_Love_and_belonging/1_Family/family">
+        <a class="c-sidebar__entry"
+          href="/4_Love_and_belonging/1_Family/family.html"
+        >
+          
+            14.
+          
+          Family
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/1_Family/Travel_family/travel_family">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/1_Family/Travel_family/travel_family.html"
+              >
+                
+                  14.1
+                
+                Travel to See Family
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/4_Love_and_belonging/2_Friendship/friendship">
+        <a class="c-sidebar__entry"
+          href="/4_Love_and_belonging/2_Friendship/friendship.html"
+        >
+          
+            15.
+          
+          Friendship
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/4_Love_and_belonging/3_Sexual_intimacy/sexual">
+        <a class="c-sidebar__entry"
+          href="/4_Love_and_belonging/3_Sexual_intimacy/sexual.html"
+        >
+          
+            16.
+          
+          Sexual intimacy
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/contraceptives">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/contraceptives.html"
+              >
+                
+                  16.1
+                
+                Contraceptives
+              </a>
+            </li>
+            
+              
+              <ul class='c-sidebar__subsections u-hidden-visually'>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/1_Hormonal/hormonal">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/1_Hormonal/hormonal.html"
+                  >
+                    
+                      16.1.1
+                      
+                    
+                    Hormonal
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/2_Barrier/barrier">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/2_Barrier/barrier.html"
+                  >
+                    
+                      16.1.2
+                      
+                    
+                    Barrier
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/3_IUDs/iuds">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/3_IUDs/iuds.html"
+                  >
+                    
+                      16.1.3
+                      
+                    
+                    Interuterine Devices
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/4_Sterilization/sterilization">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/4_Sterilization/sterilization.html"
+                  >
+                    
+                      16.1.4
+                      
+                    
+                    Sterilization
+                  </a>
+                </li>
+              
+              </ul>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/3_Sexual_intimacy/2_Pornography/pornography">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/3_Sexual_intimacy/2_Pornography/pornography.html"
+              >
+                
+                  16.2
+                
+                Pornography
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/3_Sexual_intimacy/3_Prostitution/prostitution">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/3_Sexual_intimacy/3_Prostitution/prostitution.html"
+              >
+                
+                  16.3
+                
+                Prostitution
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="/4_Love_and_belonging/4_Recreation/recreation">
+        <a class="c-sidebar__entry"
+          href="/4_Love_and_belonging/4_Recreation/recreation.html"
+        >
+          
+            17.
+          
+          Recreation
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
+      
+        
+
+        
+
+        <ul class="c-sidebar__sections u-hidden-visually">
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/1_Arts_and_crafts/arts">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/1_Arts_and_crafts/arts.html"
+              >
+                
+                  17.1
+                
+                Arts and Crafts
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/2_Eating_out/eating">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/2_Eating_out/eating.html"
+              >
+                
+                  17.2
+                
+                Eating Out
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/3_Movies/movies">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/3_Movies/movies.html"
+              >
+                
+                  17.3
+                
+                Movies
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/4_Music/music">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/4_Music/music.html"
+              >
+                
+                  17.4
+                
+                Music
+              </a>
+            </li>
+            
+              
+              <ul class='c-sidebar__subsections u-hidden-visually'>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/4_Recreation/4_Music/1_Live_music/music_live">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/4_Recreation/4_Music/1_Live_music/music_live.html"
+                  >
+                    
+                      17.4.1
+                      
+                    
+                    Live Music
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/4_Recreation/4_Music/2_Radio_or_streaming/radio">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/4_Recreation/4_Music/2_Radio_or_streaming/radio.html"
+                  >
+                    
+                      17.4.2
+                      
+                    
+                    Radio and Streaming
+                  </a>
+                </li>
+              
+              </ul>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/5_Sports/sports">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/5_Sports/sports.html"
+              >
+                
+                  17.5
+                
+                Sports
+              </a>
+            </li>
+            
+              
+              <ul class='c-sidebar__subsections u-hidden-visually'>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/4_Recreation/5_Sports/1_Playing_sports/sports_playing">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/4_Recreation/5_Sports/1_Playing_sports/sports_playing.html"
+                  >
+                    
+                      17.5.1
+                      
+                    
+                    Playing Sports
+                  </a>
+                </li>
+              
+                
+                
+                
+                
+                <li class="c-sidebar__subsection" data-url="/4_Love_and_belonging/4_Recreation/5_Sports/2_Professional_sports/sports_pro">
+                  <a class="c-sidebar__entry"
+                    href="/4_Love_and_belonging/4_Recreation/5_Sports/2_Professional_sports/sports_pro.html"
+                  >
+                    
+                      17.5.2
+                      
+                    
+                    Professional Sports
+                  </a>
+                </li>
+              
+              </ul>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/6_Theme_parks/theme_parks">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/6_Theme_parks/theme_parks.html"
+              >
+                
+                  17.6
+                
+                Theme Parks
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/7_Vacation/vacation">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/7_Vacation/vacation.html"
+              >
+                
+                  17.7
+                
+                Vacation
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/8_Watching_TV/tv">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/8_Watching_TV/tv.html"
+              >
+                
+                  17.8
+                
+                Watching TV
+              </a>
+            </li>
+            
+            
+          
+            
+            
+
+            
+            
+            
+            
+
+            <li class="c-sidebar__section" data-url="/4_Love_and_belonging/4_Recreation/9_Outdoors/outdoors">
+              <a class="c-sidebar__entry"
+                href="/4_Love_and_belonging/4_Recreation/9_Outdoors/outdoors.html"
+              >
+                
+                  17.9
+                
+                Enjoying Outdoors
+              </a>
+            </li>
+            
+            
+          
+        </ul>
+      
+
+      
+    
+      
+      
+        <li class="c-sidebar__divider"></li>
+        
+      
+      
+        <li><h2 class="c-sidebar__title">Part 4 - Esteem Needs</li>
+        
+      
+      
+        <li class="c-sidebar__divider"></li>
+        
+      
+      
+        <li><h2 class="c-sidebar__title">Part 5 - Self-Actualization Needs</li>
+        
+  </ul>
+  <p class="sidebar_footer">Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+</nav>
+
+      
+      <div class="c-topbar" id="top-navbar">
+  <!-- We show the sidebar by default so we use .is-active -->
+  <div class="c-topbar__buttons">
+    <button
+      id="js-sidebar-toggle"
+      class="hamburger hamburger--arrowalt is-active"
+    >
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <div class="buttons">
+<div class="download-buttons-dropdown">
+    <button id="dropdown-button-trigger" class="interact-button"><img src="/assets/images/download-solid.svg" alt="Download" /></button>
+    <div class="download-buttons">
+        
+        <a id="interact-button-print"><button id="interact-button-download" class="interact-button">.pdf</button></a>
+    </div>
+</div>
+
+
+</div>
+
+  </div>
+  <!-- Empty sidebar placeholder that we'll auto-fill with javascript -->
+  <aside class="sidebar__right">
+    <header><h4 class="nav__title"><img src="/assets/images/list-solid.svg" alt="Search" />   On this page</h4></header>
+    <nav class="onthispage">
+    </nav>
+  </aside>
+  <a href="/search.html" class="topbar-right-button" id="search-button">
+    <img src="/assets/images/search-solid.svg" alt="Search" />
+  </a>
+</div>
+
+      <main class="c-textbook__page" tabindex="-1">
+            <div class="c-textbook__content" id="textbook_content">
+                  <main class="jupyter-page">
+    <div id="page-info"><div id="page-title">Distribution</div>
+</div>
+    <div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Physiological-needs">Physiological needs<a class="anchor-link" href="#Physiological-needs"> </a></h1><p>XXXX</p>
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+
+    </main>
+    
+            </div>
+            <div class="c-textbook__footer" id="textbook_footer">
+              
+<nav class="c-page__nav">
+  
+    
+    
+
+    <a id="js-page__nav__prev" class="c-page__nav__prev" href="/2_Physiological/3_Food/2_Processing/processing.html">
+      〈 <span class="u-margin-right-tiny"></span> Processing
+    </a>
+  
+
+  
+    
+
+    
+    <a id="js-page__nav__next" class="c-page__nav__next" href="/2_Physiological/3_Food/4_Consumption/consumption.html">
+      Consumption <span class="u-margin-right-tiny"></span> 〉
+    </a>
+  
+</nav>
+
+              <footer>
+  <p class="footer">This page was created by <a href="http://e3sa.sites.clemson.edu">Clemson Energy-Economy-Environment Systems Analysis Group</a></p>
+</footer>
+
+            </div>
+
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
