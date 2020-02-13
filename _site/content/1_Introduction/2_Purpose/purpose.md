@@ -14,8 +14,9 @@ from which intermediate means,
 such as social capital,
 may be generated.
 
-![Daly's Pyramid](../../images/1_Introduction/Daly_pyramid.pdf)
- 
+[//]: # ({% figure caption: "XXXX"%})
+![](../../images/1_Introduction/Daly_pyramid.pdf)
+[//]: # ({% endfigure %})
 
 
 Daly further identifies three important questions
