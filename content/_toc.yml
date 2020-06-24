@@ -1,0 +1,82 @@
+
+- file: preface
+- file: 1_Introduction/introduction
+  sections:
+  - file: 1_Introduction/3_Maslow/maslow
+  - file: 1_Introduction/4_Other/other
+    sections:
+    - file: 1_Introduction/4_Other/Max_Neef/max-neef
+    - file: 1_Introduction/4_Other/Bakshi/bakshi
+  - file: 1_Introduction/1_Motivation/motivation
+  - file: 1_Introduction/2_Purpose/purpose
+- header: Part 1: Physiological Needs
+- file: 2_Physiological/physiological
+  sections:
+  - file: 2_Physiological/1_Breathing/breathing
+    sections:
+    - file: 2_Physiological/1_Breathing/3_Indoor_air_quality/air_quality
+    - file: 2_Physiological/1_Breathing/4_Criteria_air_pollutants/criteria
+    - file: 2_Physiological/1_Breathing/1_Oxygen/oxygen
+    - file: 2_Physiological/1_Breathing/2_Carbon_dioxide/carbon
+  - file: 2_Physiological/2_Drinking_water/drinking_water
+    sections:
+    - file: 2_Physiological/2_Drinking_water/3_Water_treatment/treatment
+    - file: 2_Physiological/2_Drinking_water/2_Needs/needs
+    - file: 2_Physiological/2_Drinking_water/1_Water_on_Earth/water
+  - file: 2_Physiological/3_Food/food
+    sections:
+    - file: 2_Physiological/3_Food/5_End-of-life/EoL
+    - file: 2_Physiological/3_Food/2_Processing/processing
+    - file: 2_Physiological/3_Food/3_Distribution/distribution
+    - file: 2_Physiological/3_Food/4_Consumption/consumption
+    - file: 2_Physiological/3_Food/Full_life_cycle/full
+    - file: 2_Physiological/3_Food/1_Agriculture/agriculture
+    - file: 2_Physiological/3_Food/6_Losses/losses
+  - file: 2_Physiological/4_Excretion/excretion
+    sections:
+    - file: 2_Physiological/4_Excretion/3_Hygiene/hygiene
+    - file: 2_Physiological/4_Excretion/2_Wastewater_treatment/ww_treatment
+    - file: 2_Physiological/4_Excretion/1_Toilets/toilets
+  - file: 2_Physiological/5_Homeostasis/homeostasis
+    sections:
+    - file: 2_Physiological/5_Homeostasis/2_Heating_and_cooling/cooling
+      sections:
+      - file: 2_Physiological/5_Homeostasis/2_Heating_and_cooling/heating
+    - file: 2_Physiological/5_Homeostasis/3_Clothing/clothing
+    - file: 2_Physiological/5_Homeostasis/1_Shelter/shelter
+  - file: 2_Physiological/6_Sleep/sleep
+    sections:
+    - file: 2_Physiological/6_Sleep/1_Bed/bed
+    - file: 2_Physiological/6_Sleep/3_Sleep_aids/sleep_aids
+    - file: 2_Physiological/6_Sleep/2_Bedding/bedding
+  - file: 2_Physiological/7_Reproduction/reproduction
+    sections:
+    - file: 2_Physiological/7_Reproduction/1_Pregnancy/labor
+      sections:
+      - file: 2_Physiological/7_Reproduction/1_Pregnancy/fertility
+    - file: 2_Physiological/7_Reproduction/2_Child_rearing/rearing
+- header: Part 2: Safety Needs
+- file: 3_Safety/safety
+  sections:
+  - file: 3_Safety/1_Health/health
+    sections:
+    - file: 3_Safety/1_Health/3_Supplements/supplements
+    - file: 3_Safety/1_Health/1_Hygiene/hygiene
+      sections:
+      - file: 3_Safety/1_Health/1_Hygiene/1_Ablutions/ablutions
+      - file: 3_Safety/1_Health/1_Hygiene/3_Cleaning/cleaning
+      - file: 3_Safety/1_Health/1_Hygiene/2_Laundry/laundry
+    - file: 3_Safety/1_Health/2_Medical/medical
+      sections:
+      - file: 3_Safety/1_Health/2_Medical/3_Pharmaceuticals/pharmaceuticals
+      - file: 3_Safety/1_Health/2_Medical/2_Specialized_care_and_surgery/specialist
+      - file: 3_Safety/1_Health/2_Medical/4_Non-pharmaceutical_products/non-pharmaceuticals
+      - file: 3_Safety/1_Health/2_Medical/1_Primary_care/physician
+  - file: 3_Safety/3_Property/property
+  - file: 3_Safety/4_Security/security
+  - file: 3_Safety/2_Employment/employment
+    sections:
+    - file: 3_Safety/2_Employment/4_Business_travel/travel_business
+    - file: 3_Safety/2_Employment/2_IT_services/it
+    - file: 3_Safety/2_Employment/3_Commuting/commuting
+    - file: 3_Safety/2_Employment/1_Place_of_business/place
