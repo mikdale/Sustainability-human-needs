@@ -56,13 +56,14 @@ which animals take in from the environment.
 During such respiration, carbon dioxide is produced,
 which must be expelled from the body.
 
-{figure} ../../images/2_Physiological/Breathing/HCO_cycles.pdf
+
+```{figure} ../../images/2_Physiological/Breathing/HCO_cycles.pdf
 ---
 height: 150px
 name: HCO-cycles
 ---
-Here is my figure caption!
-
+The hydrogen, carbon, and oxygen cycles are deeply intertwined through the plant and animal kingdoms.
+```
 
 
 As such, 
