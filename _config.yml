@@ -18,6 +18,7 @@ html:
   use_repository_button: true
   use_issues_button: true
   baseurl: https://jupyterbook.org/
+  navbar_number_sections: true
 
 repository:
   url: https://github.com/mikdale/Sustainability-human-needs
