@@ -28,6 +28,7 @@ The safe operating space for humanity
 across a variety of environmental concerns.
 ```
 
+The second image is shown in {numref}```fig-label:HDI_eco```.
 
 
 (fig-label:HDI_eco)=
