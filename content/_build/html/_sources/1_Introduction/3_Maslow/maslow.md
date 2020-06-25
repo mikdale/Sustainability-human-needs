@@ -3,7 +3,7 @@
 Perhaps the most famous model of human needs comes from psychologist Abraham Maslow.
 In his model,
 human needs are ordered in a hierarchy,
-as depicted in Figure XXXX
+as depicted in {ref}```fig-label:maslow```
 in which physiological needs must be satisfied 
 before a person can attend to higher order needs,
 such as those associated with love and belonging.
@@ -12,9 +12,17 @@ In this model,
 the ultimate personal achievement is self-actualization
 meaning XXXX.
 
-[//]: # ({% figure caption: "XXXX"%})
-![](../../images/1_Introduction/Maslow.pdf)
-[//]: # ({% endfigure %})
+
+(fig-label:maslow)=
+```{figure} ../../images/1_Introduction/Maslow.png
+---
+width: 100%
+figclass: margin-caption
+name: maslow
+---
+Maslow's hierarchy of fundamental human needs,
+from [REF]
+```
 
 ## Critiques of Maslow's model
 

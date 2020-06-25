@@ -14,7 +14,7 @@ meaning XXXX.
 
 
 (fig-label:maslow)=
-```{figure} ../../images/1_Introduction/Maslow.pdf
+```{figure} ../../images/1_Introduction/Maslow.png
 ---
 width: 100%
 figclass: margin-caption
