@@ -11,6 +11,11 @@ species are becoming extinct at apocalyptic rates,
 we are alse disrupting many other natural cycles.
 
 Two images tell this story most clearly for me.
+The first shows the concept of **planetary boundaries**,
+safe operating spaces for humanity 
+across a variety of environmental concerns.
+As can be seen in {numref}```fig-label:planetary```,
+
 
 (fig-label:planetary)=
 ```{figure} ../../images/0_Preface/planetary-boundaries.jpg
@@ -23,7 +28,7 @@ The safe operating space for humanity
 across a variety of environmental concerns.
 ```
 
-The first 
+
 
 (fig-label:HDI_eco)=
 ```{figure} ../../images/0_Preface/fig22_human_dev_and_eco_footprints.gif
