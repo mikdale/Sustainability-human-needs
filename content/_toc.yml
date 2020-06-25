@@ -29,164 +29,123 @@
 # A chapter w/ a collection of sections beneath it
 - title: Introduction
   file: 1_Introduction/introduction
-  
   expand_sections: false
   sections:
   - title: Motivation
     file: 1_Introduction/1_Motivation/motivation
-    
   - title: Purpose
     file: 1_Introduction/2_Purpose/purpose
-    
   - title: Maslow
     file: 1_Introduction/3_Maslow/maslow
-    
   - title: Other
     file: 1_Introduction/4_Other/other
-    
     expand_sections: false
     sections:
     - title: Max-Neef
       file: 1_Introduction/4_Other/Max_Neef/max-neef
-      
     - title: Bakshi
       file: 1_Introduction/4_Other/Bakshi/bakshi
-      
   - title: Life cycle lens
   file: 1_Introduction/5_Life_cycle_lens/life_cycle_lens
     
-
 # Add a header and sample content section
 - header: Part 1 - Physiological Needs
 
 # A chapter w/ a collection of sections beneath it
 - title: Breathing
   file: 2_Physiological/1_Breathing/breathing
-  
   expand_sections: false
   sections:
   - title: Oxygen
     file: 2_Physiological/1_Breathing/1_Oxygen/oxygen
-    
   - title: Carbon Dioxide
     file: 2_Physiological/1_Breathing/2_Carbon_dioxide/carbon
-    
   - title: Indoor Air Quality
     file: 2_Physiological/1_Breathing/3_Indoor_air_quality/air_quality
-    
   - title: Criteria Air Pollutants
     file: 2_Physiological/1_Breathing/4_Criteria_air_pollutants/criteria
-    
 
 # A chapter w/ a collection of sections beneath it
 - title: Drinking Water
   file: 2_Physiological/2_Drinking_water/drinking_water
-  
   expand_sections: false
   sections:
   - title: Water on Earth
     file: 2_Physiological/2_Drinking_water/1_Water_on_Earth/water
-    
   - title: Water Needs
     file: 2_Physiological/2_Drinking_water/2_Needs/needs
-    
   - title: Water Treatment
     file: 2_Physiological/2_Drinking_water/3_Water_treatment/treatment
-    
 
 # A chapter w/ a collection of sections beneath it
 - title: Food
   file: 2_Physiological/3_Food/food
-  
   expand_sections: false
   sections:
   - title: Agriculture
     file: 2_Physiological/3_Food/1_Agriculture/agriculture
-    
   - title: Processing
     file: 2_Physiological/3_Food/2_Processing/processing
-    
   - title: Distribution
     file: 2_Physiological/3_Food/3_Distribution/distribution
-    
   - title: Consumption
     file: 2_Physiological/3_Food/4_Consumption/consumption
-    
   - title: End of Life
     file: 2_Physiological/3_Food/5_End-of-life/EoL
-    
   - title: Losses
     file: 2_Physiological/3_Food/6_Losses/losses
-
   - title: Food life cycle
     file: 2_Physiological/3_Food/Full_life_cycle/full
 
 # A chapter w/ a collection of sections beneath it
 - title: Excretion
   file: 2_Physiological/4_Excretion/excretion
-  
   expand_sections: false
   sections:
   - title: Toilets
     file: 2_Physiological/4_Excretion/1_Toilets/toilets
-    
   - title: Wastewater Treatment
-    file: 2_Physiological/4_Excretion/2_Wastewater_treatment/WW_treatment
-    
+    file: 2_Physiological/4_Excretion/2_Wastewater_treatment/ww_treatment
   - title: Hygiene
     file: 2_Physiological/4_Excretion/3_Hygiene/hygiene
     
-
 # A chapter w/ a collection of sections beneath it
 - title: Homeostasis
   file: 2_Physiological/5_Homeostasis/homeostasis
-  
   expand_sections: false
   sections:
   - title: Shelter
     file: 2_Physiological/5_Homeostasis/1_Shelter/shelter
-    
   - title: Heating
     file: 2_Physiological/5_Homeostasis/2_Heating_and_cooling/heating
-    
   - title: Cooling
     file: 2_Physiological/5_Homeostasis/2_Heating_and_cooling/cooling
-    
   - title: Clothing
     file: 2_Physiological/5_Homeostasis/3_Clothing/clothing
     
-
 # A chapter w/ a collection of sections beneath it
 - title: Sleep
   file: 2_Physiological/6_Sleep/sleep
-  
   expand_sections: false
   sections:
   - title: Bed
     file: 2_Physiological/6_Sleep/1_Bed/bed
-    
   - title: Bedding
     file: 2_Physiological/6_Sleep/2_Bedding/bedding
-    
   - title: Sleep Aids
     file: 2_Physiological/6_Sleep/3_Sleep_Aids/sleep_aids
-    
 
 # A chapter w/ a collection of sections beneath it
 - title: Reproduction
   file: 2_Physiological/7_Reproduction/reproduction
-  
   expand_sections: false
   sections:
   - title: Fertility
     file: 2_Physiological/7_Reproduction/1_Pregnancy/fertility
-    
   - title: Labor
     file: 2_Physiological/7_Reproduction/1_Pregnancy/labor
-    
   - title: Child Rearing
     file: 2_Physiological/7_Reproduction/2_Child_rearing/rearing
-    
 
 # Add a header and sample content section
 - header: Part 2 - Safety Needs
@@ -194,72 +153,54 @@
 # A chapter w/ a collection of sections beneath it
 - title: Health
   file: 3_Safety/1_Health/health
-  
   expand_sections: false
   sections:
   - title: Hygiene
     file: 3_Safety/1_Health/1_Hygiene/hygiene
-    
     expand_sections: false
     sections:
     - title: Ablutions
       file: 3_Safety/1_Health/1_Hygiene/1_Ablutions/ablutions
-      
     - title: Laundry
       file: 3_Safety/1_Health/1_Hygiene/2_Laundry/laundry
-      
     - title: Cleaning
       file: 3_Safety/1_Health/1_Hygiene/3_Cleaning/cleaning
-      
   - title: Medical
     file: 3_Safety/1_Health/2_Medical/medical
-    
     expand_sections: false
     sections:
     - title: Primary Care
       file: 3_Safety/1_Health/2_Medical/1_Primary_care/physician
-      
     - title: Specialized Care
       file: 3_Safety/1_Health/2_Medical/2_Specialized_care_and_surgery/specialist
-      
     - title: Pharmaceuticals
       file: 3_Safety/1_Health/2_Medical/3_Pharmaceuticals/pharmaceuticals
-      
     - title: Non-pharmaceutical Products
       file: 3_Safety/1_Health/2_Medical/4_Non-pharmaceutical_products/non-pharmaceuticals
-      
   - title: Supplements
     file: 3_Safety/1_Health/3_Supplements/supplements
-    
 
 # A chapter w/ a collection of sections beneath it
 - title: Employment
   file: 3_Safety/2_Employment/employment
-  
   expand_sections: false
   sections:
   - title: Places of Business
     file: 3_Safety/2_Employment/1_Place_of_business/place
-    
   - title: Information Technology
     file: 3_Safety/2_Employment/2_IT_services/it
-    
   - title: Commuting
     file: 3_Safety/2_Employment/3_Commuting/commuting
-    
   - title: Business Travel
     file: 3_Safety/2_Employment/4_Business_travel/travel_business
-    
 
 # A chapter w/ a collection of sections beneath it
 - title: Property
   file: 3_Safety/3_Property/property
-  
 
 # A chapter w/ a collection of sections beneath it
 - title: Security
   file: 3_Safety/4_Security/security
-  
 
 # Add a header and sample content section
 - header: Part 3 - Love & Belonging Needs
@@ -267,98 +208,71 @@
 # A chapter w/ a collection of sections beneath it
 - title: Family
   file: 4_Love_and_belonging/1_Family/family
-  
   expand_sections: false
   sections:
   - title: Travel to See Family
     file: 4_Love_and_belonging/1_Family/Travel_family/travel_family
-    
 - title: Friendship
   file: 4_Love_and_belonging/2_Friendship/friendship
-  
 
 # A chapter w/ a collection of sections beneath it
 - title: Sexual intimacy
   file: 4_Love_and_belonging/3_Sexual_intimacy/sexual
-  
   expand_sections: false
   sections:
   - title: Contraceptives
     file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/contraceptives
-    
     expand_sections: false
     sections:
     - title: Hormonal
       file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/1_Hormonal/hormonal
-      
     - title: Barrier
       file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/2_Barrier/barrier
-      
     - title: Interuterine Devices
       file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/3_IUDs/iuds
-      
     - title: Sterilization
       file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/4_Sterilization/sterilization
-      
   - title: Pornography
     file: 4_Love_and_belonging/3_Sexual_intimacy/2_Pornography/pornography
-    
   - title: Prostitution
     file: 4_Love_and_belonging/3_Sexual_intimacy/3_Prostitution/prostitution
-    
 
 # A chapter w/ a collection of sections beneath it
 - title: Recreation
   file: 4_Love_and_belonging/4_Recreation/recreation
-  
   expand_sections:
   sections:
   - title: Arts and Crafts
     file: 4_Love_and_belonging/4_Recreation/1_Arts_and_crafts/arts
-    
   - title: Eating Out
     file: 4_Love_and_belonging/4_Recreation/2_Eating_out/eating
-    
   - title: Movies
     file: 4_Love_and_belonging/4_Recreation/3_Movies/movies
-    
   - title: Music
     file: 4_Love_and_belonging/4_Recreation/4_Music/music
-    
     expand_sections: false
     sections:
     - title: Live Music
       file: 4_Love_and_belonging/4_Recreation/4_Music/1_Live_music/music_live
-      
     - title: Radio and Streaming
       file: 4_Love_and_belonging/4_Recreation/4_Music/2_Radio_or_streaming/radio
-      
   - title: Sports
     file: 4_Love_and_belonging/4_Recreation/5_Sports/sports
-    
     expand_sections: false
     sections:
     - title: Playing Sports
       file: 4_Love_and_belonging/4_Recreation/5_Sports/1_Playing_sports/sports_playing
-      
     - title: Professional Sports
       file: 4_Love_and_belonging/4_Recreation/5_Sports/2_Professional_sports/sports_pro
-      
   - title: Theme Parks
     file: 4_Love_and_belonging/4_Recreation/6_Theme_parks/theme_parks
-    
   - title: Vacation
     file: 4_Love_and_belonging/4_Recreation/7_Vacation/vacation
-    
   - title: Watching TV
     file: 4_Love_and_belonging/4_Recreation/8_Watching_TV/tv
-    
   - title: Enjoying Outdoors
     file: 4_Love_and_belonging/4_Recreation/9_Outdoors/outdoors
-    
   
-
-
 # Add a header and sample content section
 - header: Part 4 - Esteem Needs
 
