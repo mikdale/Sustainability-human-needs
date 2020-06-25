@@ -1,3 +1,4 @@
+(chp-labe:intro)
 # Introduction
 
 Human beings are physical beings subject to physical laws, 
@@ -7,20 +8,20 @@ far from thermodynamic equilibrium with their surroundings.
 In order to do so, 
 they are open systems tied to their environments 
 at both the front and back ends. 
-On the input side, 
-we must obtain high quality (high exergy or low entropy) resources 
-from which we acquire energy to power our bodies and nutrients to
-replace them.
-This comes in the form of both food and oxygen.[^1]
 
-<!-- #region {"tags": ["popout"]} -->
-**1**: As will be discussed in more detail in Chapter 2 on breathing, 
+```{margin}
+As will be discussed in more detail in {ref}`chp-label:breathing`, 
 food and oxygen are essentially two sides of the same coin, 
 both created in the act of photosynthesis. 
 Without free oxygen in the atmosphere, we would be unable to consume (i.e. ‘burn’) food,
 which are essentially hydrocarbons.
-<!-- #endregion -->
+```
 
+On the input side, 
+we must obtain high quality (high exergy or low entropy) resources 
+from which we acquire energy to power our bodies and nutrients to
+replace them.
+This comes in the form of both food and oxygen.
 On the output side, 
 we must get rid of low quality (low exergy or high entropy) wastes,
 such as heat, urine, feces, and carbon dioxide.
