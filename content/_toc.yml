@@ -117,7 +117,9 @@
     
   - title: Losses
     file: 2_Physiological/3_Food/6_Losses/losses
-    
+
+  - title: Food life cycle
+    file: 2_Physiological/3_Food/Full_life_cycle/full
 
 # A chapter w/ a collection of sections beneath it
 - title: Excretion
