@@ -1,15 +1,8 @@
-
+file: LICENSE
+sections:
 - file: preface
-- file: 1_Introduction/introduction
-  sections:
-  - file: 1_Introduction/3_Maslow/maslow
-  - file: 1_Introduction/4_Other/other
-    sections:
-    - file: 1_Introduction/4_Other/Max_Neef/max-neef
-    - file: 1_Introduction/4_Other/Bakshi/bakshi
-  - file: 1_Introduction/1_Motivation/motivation
-  - file: 1_Introduction/2_Purpose/purpose
-- header: Part 1: Physiological Needs
+- file: 6_Self-actualization/actualization
+- file: 5_Esteem/esteem
 - file: 2_Physiological/physiological
   sections:
   - file: 2_Physiological/1_Breathing/breathing
@@ -23,15 +16,17 @@
     - file: 2_Physiological/2_Drinking_water/3_Water_treatment/treatment
     - file: 2_Physiological/2_Drinking_water/2_Needs/needs
     - file: 2_Physiological/2_Drinking_water/1_Water_on_Earth/water
-  - file: 2_Physiological/3_Food/food
+  - file: 2_Physiological/6_Sleep/sleep
     sections:
-    - file: 2_Physiological/3_Food/5_End-of-life/EoL
-    - file: 2_Physiological/3_Food/2_Processing/processing
-    - file: 2_Physiological/3_Food/3_Distribution/distribution
-    - file: 2_Physiological/3_Food/4_Consumption/consumption
-    - file: 2_Physiological/3_Food/Full_life_cycle/full
-    - file: 2_Physiological/3_Food/1_Agriculture/agriculture
-    - file: 2_Physiological/3_Food/6_Losses/losses
+    - file: 2_Physiological/6_Sleep/1_Bed/bed
+    - file: 2_Physiological/6_Sleep/3_Sleep_aids/sleep_aids
+    - file: 2_Physiological/6_Sleep/2_Bedding/bedding
+  - file: 2_Physiological/7_Reproduction/reproduction
+    sections:
+    - file: 2_Physiological/7_Reproduction/1_Pregnancy/labor
+      sections:
+      - file: 2_Physiological/7_Reproduction/1_Pregnancy/fertility
+    - file: 2_Physiological/7_Reproduction/2_Child_rearing/rearing
   - file: 2_Physiological/4_Excretion/excretion
     sections:
     - file: 2_Physiological/4_Excretion/3_Hygiene/hygiene
@@ -44,18 +39,24 @@
       - file: 2_Physiological/5_Homeostasis/2_Heating_and_cooling/heating
     - file: 2_Physiological/5_Homeostasis/3_Clothing/clothing
     - file: 2_Physiological/5_Homeostasis/1_Shelter/shelter
-  - file: 2_Physiological/6_Sleep/sleep
+  - file: 2_Physiological/3_Food/food
     sections:
-    - file: 2_Physiological/6_Sleep/1_Bed/bed
-    - file: 2_Physiological/6_Sleep/3_Sleep_aids/sleep_aids
-    - file: 2_Physiological/6_Sleep/2_Bedding/bedding
-  - file: 2_Physiological/7_Reproduction/reproduction
+    - file: 2_Physiological/3_Food/5_End-of-life/EoL
+    - file: 2_Physiological/3_Food/2_Processing/processing
+    - file: 2_Physiological/3_Food/3_Distribution/distribution
+    - file: 2_Physiological/3_Food/4_Consumption/consumption
+    - file: 2_Physiological/3_Food/Full_life_cycle/full
+    - file: 2_Physiological/3_Food/1_Agriculture/agriculture
+    - file: 2_Physiological/3_Food/6_Losses/losses
+- file: 1_Introduction/introduction
+  sections:
+  - file: 1_Introduction/3_Maslow/maslow
+  - file: 1_Introduction/4_Other/other
     sections:
-    - file: 2_Physiological/7_Reproduction/1_Pregnancy/labor
-      sections:
-      - file: 2_Physiological/7_Reproduction/1_Pregnancy/fertility
-    - file: 2_Physiological/7_Reproduction/2_Child_rearing/rearing
-- header: Part 2: Safety Needs
+    - file: 1_Introduction/4_Other/Max_Neef/max-neef
+    - file: 1_Introduction/4_Other/Bakshi/bakshi
+  - file: 1_Introduction/1_Motivation/motivation
+  - file: 1_Introduction/2_Purpose/purpose
 - file: 3_Safety/safety
   sections:
   - file: 3_Safety/1_Health/health
@@ -80,3 +81,36 @@
     - file: 3_Safety/2_Employment/2_IT_services/it
     - file: 3_Safety/2_Employment/3_Commuting/commuting
     - file: 3_Safety/2_Employment/1_Place_of_business/place
+- file: 4_Love_and_belonging/love
+  sections:
+  - file: 4_Love_and_belonging/1_Family/family
+    sections:
+    - file: 4_Love_and_belonging/1_Family/Travel_family/travel_family
+  - file: 4_Love_and_belonging/2_Friendship/friendship
+  - file: 4_Love_and_belonging/4_Recreation/recreation
+    sections:
+    - file: 4_Love_and_belonging/4_Recreation/8_Watching_TV/tv
+    - file: 4_Love_and_belonging/4_Recreation/9_Outdoors/outdoors
+    - file: 4_Love_and_belonging/4_Recreation/4_Music/music
+      sections:
+      - file: 4_Love_and_belonging/4_Recreation/4_Music/1_Live_music/music_live
+      - file: 4_Love_and_belonging/4_Recreation/4_Music/2_Radio_or_streaming/radio
+    - file: 4_Love_and_belonging/4_Recreation/6_Theme_parks/theme_parks
+    - file: 4_Love_and_belonging/4_Recreation/5_Sports/sports
+      sections:
+      - file: 4_Love_and_belonging/4_Recreation/5_Sports/2_Professional_sports/sports_pro
+      - file: 4_Love_and_belonging/4_Recreation/5_Sports/1_Playing_sports/sports_playing
+    - file: 4_Love_and_belonging/4_Recreation/1_Arts_and_crafts/arts
+    - file: 4_Love_and_belonging/4_Recreation/2_Eating_out/eating
+    - file: 4_Love_and_belonging/4_Recreation/3_Movies/movies
+    - file: 4_Love_and_belonging/4_Recreation/7_Vacation/vacation
+  - file: 4_Love_and_belonging/3_Sexual_intimacy/sexual
+    sections:
+    - file: 4_Love_and_belonging/3_Sexual_intimacy/3_Prostitution/prostitution
+    - file: 4_Love_and_belonging/3_Sexual_intimacy/2_Pornography/pornography
+    - file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/contraceptives
+      sections:
+      - file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/4_Sterilization/sterilization
+      - file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/1_Hormonal/hormonal
+      - file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/3_IUDs/iuds
+      - file: 4_Love_and_belonging/3_Sexual_intimacy/1_Contraceptives/2_Barrier/barrier
