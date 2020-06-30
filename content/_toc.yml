@@ -56,13 +56,13 @@
   expand_sections: false
   sections:
   - title: Oxygen
-    file: 2_Physiological/1_Breathing/1_Oxygen/oxygen
+    file: 2_Physiological/1_Breathing/oxygen
   - title: Carbon Dioxide
-    file: 2_Physiological/1_Breathing/2_Carbon_dioxide/carbon
+    file: 2_Physiological/1_Breathing/carbon
   - title: Indoor Air Quality
-    file: 2_Physiological/1_Breathing/3_Indoor_air_quality/air_quality
+    file: 2_Physiological/1_Breathing/air_quality
   - title: Criteria Air Pollutants
-    file: 2_Physiological/1_Breathing/4_Criteria_air_pollutants/criteria
+    file: 2_Physiological/1_Breathing/criteria
 
 # A chapter w/ a collection of sections beneath it
 - title: Drinking Water
