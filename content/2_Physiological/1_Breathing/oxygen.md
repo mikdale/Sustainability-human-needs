@@ -40,6 +40,8 @@ held by Aleix Segura Vendrell,
 being 24 minutes in 2016 [Guiness2016], 
 though this was achieved through preparatory hyperventilation of pure oxygen before the attempt.
 
+## Death zone
+
 Atmospheric pressure decreases exponentially with altitude. [XXXX - SIDE PLOT]
 Therefore, at higher elevations, 
 in order to breathe in the same amount of oxygen, 
@@ -73,6 +75,7 @@ and eventual death [Huey2001].
 XXXX
 ```
 
+## Space travel
 
 ```{note} LCA of oxygen aboard ISS
 XXXX
