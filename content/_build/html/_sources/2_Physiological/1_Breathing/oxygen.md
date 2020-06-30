@@ -51,6 +51,17 @@ increase in red blood cells that carry oxygen [Hurford1990],
 increase in cerebral blood flow [Moore1998], 
 and increase in breath [REF]. 
 An extreme example of lack of oxygen occurs in climbers above 8000m elevation in what is known as the ‘death zone’. 
+
+(fig-label:everest)=
+```{figure} ../../images/2_Physiological/Breathing/Everest.png
+---
+width: 100%
+figclass: margin-caption
+name: everest
+---
+Everest's death zone covers an aread of around XXXX m<sup>2</sup>. [CHANGE THIS TO EMBEDDED MAP]
+```
+
 At this altitude, 
 the human body cannot acclimatize and uses oxygen faster than it can be breathed in. 
 Extended periods in the death zone result in 
