@@ -1,4 +1,23 @@
+(chp-label:oxygen)=
 #  Oxygen
+
+As noted in {ref}`chp-label:oxygen`,
+Earth's atmosphere has changed markedly
+over it's 4.5 billion year history.
+One of the most dramatic components of this change
+was the (relative) explosive increase in oxygen levels,
+as depicted in {numref}`fig-label:oxygen`.
+
+(fig-label:oxygen)=
+```{figure} ../../images/2_Physiological/Breathing/oxygen.png
+---
+width: 100%
+figclass: margin
+name: oxygen
+---
+Oxygen concentration in Earth's atmosphere
+over the past 3.8 billion years.
+```
 
 ```{margin}
 There are many living species that do not require oxygen, including anaer- obic bacteria. In fact, some researchers speculate that when the first cyanobacte- ria started photosynthesizing, their oxy- gen waste product caused a mass extinc- tion event in the other anaerobic bac- teria [Margulis1997]. As ‘the exception that proves the rule’, a metazoa (multi- cellular animal) has recently been found that lives it entire life in anoxic condi- tions [Danovaro2010]

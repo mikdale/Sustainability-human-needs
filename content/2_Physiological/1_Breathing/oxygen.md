@@ -1,4 +1,29 @@
+(chp-label:oxygen)=
 #  Oxygen
+
+As noted in {ref}`chp-label:oxygen`,
+Earth's atmosphere has changed markedly
+over it's 4.5 billion year history.
+One of the most dramatic components of this change
+was the (relative) explosive increase in oxygen levels,
+as depicted in {numref}`fig-label:oxygen`.
+This change occurred in five distinct stages:
+Stage 1 (3.85–2.45 Ga): Practically no O<sub>2</sub> in the atmosphere. 
+Stage 2 (2.45–1.85 Ga): O<sub>2</sub> produced, but absorbed in oceans and seabed rock. 
+Stage 3 (1.85–0.85 Ga): O<sub>2</sub> starts to gas out of the oceans, but is absorbed by land surfaces and formation of ozone layer. 
+Stages 4 and 5 (0.85 Ga–present): O<sub>2</sub> sinks filled, the gas accumulates. [REF Holland2006]
+
+(fig-label:oxygen)=
+```{figure} ../../images/2_Physiological/Breathing/oxygen.png
+---
+width: 100%
+figclass: margin
+name: oxygen
+---
+Oxygen concentration in Earth's atmosphere
+over the past 3.8 billion years, from [REF Holland2006].
+```
+
 
 ```{margin}
 There are many living species that do not require oxygen, including anaer- obic bacteria. In fact, some researchers speculate that when the first cyanobacte- ria started photosynthesizing, their oxy- gen waste product caused a mass extinc- tion event in the other anaerobic bac- teria [Margulis1997]. As ‘the exception that proves the rule’, a metazoa (multi- cellular animal) has recently been found that lives it entire life in anoxic condi- tions [Danovaro2010]
@@ -75,7 +100,7 @@ and eventual death [Huey2001].
 XXXX
 ```
 
-## Space travel
+## Space
 
 ```{note} LCA of oxygen aboard ISS
 XXXX
