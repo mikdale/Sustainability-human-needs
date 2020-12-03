@@ -1,5 +1,5 @@
 (chp-label:oxygen)=
-#  Oxygen
+#  Access to oxygen
 
 (fig-label:oxygen)=
 ```{figure} ../../images/2_Physiological/Breathing/oxygen.png
